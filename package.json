@@ -9,6 +9,14 @@
     "lint": "oxlint",
     "preview": "vite preview"
   },
+  {
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.3.1",
     "framer-motion": "^12.42.0",
